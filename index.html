@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <meta name="description" 
+      content="This is an example of a meta description. This will often show up in search results.">
+      <link rel="stylesheet" href="index.css">
+    <title>About Us</title>
+  </head>
+  <body>
+    <nav class="navbar shadow-sm navbar-expand-lg navbar-light bgLight bgWhite border-bottom py-0 position-fixed top-0 start-0 end-0 z_index">
+      <div class="container-fluid px-2">
+        <a class="navbar-brand" href="#" title="brand name"><img class="d-block h_w" src="Logo.png" alt="our brand"></a>
+        <a href="#" title="Dark and light mode"> 
+        <img class="h_w show_sun moon_img moonImg" onclick="day_night()" src="sun cnvrt.png" alt="sun">
+        </a>
+        <a class="mx-2 hide_1000" href="#"><img class="moon_img" src="Group 1198.png" alt="user"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+          <div class="d-flex">
+            <div class="nav-item mx-2"><a class="fw_600 anchor clrWhite" href="#" title="All tools" onclick="show_tools()">All Tools <img src="drop_chevron.svg" alt="dropdown"></a></div>
+            <div class="nav-item mx-2"><a class="fw_600 anchor clrWhite" href="#" title="Blog">Blog</a></div>
+            <div class="nav-item mx-2"><a class="fw_600 anchor clrWhite" href="#" title="title">Dashboard</a></div>
+            <div class="nav-item mx-2"><a class="fw_600 anchor clrWhite" href="#" title="title">About us</a></div>
+          </div>
+          <div class="position-relative m-0 justify-content-end d-flex search_div mx-1 hide_1000">
+            <input class="py-3 w-100 inp rounded-0 border-0 hide_1000 bg_light bgBlack" type="text" placeholder="Enter a word to search..">
+            <a class="hide_1000" href="#"><img class="position-absolute top_right hide_1000" src="search.svg" alt="search"></a>
+          </div>
+          <a class="mx-2 hide_1000" href="#"><img src="Shape 1.png" alt="bell"></a>
+          <a class="mx-2 hide_1000" href="#"><img src="Group 1198.png" alt="user"></a>
+          <div><button class="p-2 rounded bgLight bg_light clrWhite brdr_bs fw_600" type="button">ENGLISH <img src="global.png" alt="global"></button></div>
+        </div>
+      </div>
+    </nav>
+    <!-- about us main section goes here -->
+    <div class="container-fluid mt-4 pt-5 pb-5 bgCode bgBlack">
+      <div class="text-center display-4 pt-5 mt-5 text-white">MEET OUR TEAM</div>
+      <div class="text-center display-6 pt-5 mt-5 pb-5 text-white">We are all very different. We were born in different cities, at different times, we love different music, food, movies. But we have something that unites us all. It is our company. We are its heart. We are not just a team, we are a family.</div>
+      <div class="text-center py-5 mt-5"><button type="submit" class="fw_600 px-5 py-3 bg_none border rounded">CONTACT US</button></div>
+    </div>
+    <div class="container-fluid p-0 bgLight">
+      <div class="text-center display-3 fw-bolder py-4 bgBlack bg-dark clrGrd"><span class="clr1">SEE</span><span class="clr2"> MORE </span> <span class="clr4"> ABOUT</span> <span class="clr4"> US</span></div>
+    </div>
+    <div class="container-fluid py-5 bgLight">
+      <div class="row justify-content-center">
+        <div class="col-md-3">
+          <div class="icon display-1 text-center">
+            <i class="fad fa-layer-plus"></i>
+          </div>
+          <div class="text-center display-6 mt-4 clrWhite">Creativity</div>
+          <div class="text-center mt-5 clrWhite">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio reprehenderit adipisci sapiente ab, non cum?</div>
+        </div>
+        <div class="col-md-3">
+          <div class="icon display-1 text-center">
+            <i class="fad fa-layer-plus"></i>
+          </div>
+          <div class="text-center display-6 mt-4 clrWhite">World Wide</div>
+          <div class="text-center mt-5 clrWhite">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio reprehenderit adipisci sapiente ab, non cum?</div>
+        </div>
+        <div class="col-md-3">
+          <div class="icon display-1 text-center">
+            <i class="fad fa-layer-plus"></i>
+          </div>
+          <div class="text-center display-6 mt-4 clrWhite">Unique Style</div>
+          <div class="text-center mt-5 clrWhite">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio reprehenderit adipisci sapiente ab, non cum?</div>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid py-5 pt-5 bg_light pb-4 bgBlack">
+      <div class="text-center pt-4">
+        <img src="demo.jpg" alt="webteam">
+        <div class="des text-center mx-auto w-50 fw_600 my-5 clrWhite">Lorem ipsum dolor sit ame adipisicing elit. Vero quis in voluptatem animi tempora distinctio eveniet, sapiente ipsam quas, veniam repellendus porro molestias perferendis quisquam? Ipsum sequi non sit consequatur!</div>
+        <div class="text-center fw_600 fs-4 clrWhite">Mr. Waseem</div>
+        <div class="des text-center mx-auto w-50 display-6 my-3 clrWhite">DEVELOPER</div>
+        <div class="des text-center mx-auto w-50 fw_600 my-5 display-5"><button class="mx-2 border btn-primary" type="submit"><i class="fas fa-chevron-circle-left"></i></button><button class="mx-2 border btn-primary" type="submit"><i class="fas fa-chevron-circle-right"></i></button></div>
+      </div>
+    </div>
+    <div class="container-fluid pt-5 bg_grd pb-4 bgBlack">
+      <div class="des text-center mx-auto w-50 display-6 my-3 clrWhite">OUR CLIENTS</div>
+      <div class="text-center fw_600 fs-4 clrWhite">Thank you for choosing us!</div>
+      <div class="owl-carousel owl-theme bg_dark_1 pt-5 px-5 blackish">
+        <div class="item">
+          <a title="carousel items" href="#">
+          <img src="1.png" alt="carousel img" >
+          </a>
+        </div>
+        <div class="item">
+          <a title="carousel items" href="#">
+          <img src="2.png" alt="carousel img">
+          </a>
+        </div>
+        <div class="item"><a class="" title="carousel items" href="#"><img class="" src="3.png" alt="carousel img"></a></div>
+        <div class="item"><a class="" title="carousel items" href="#"><img class="" src="4.png" alt="carousel img"></a></div>
+        <div class="item"><a class="" title="carousel items" href="#"><img class="" src="5.png" alt="carousel img"></a></div>
+        <div class="item"><a class="" title="carousel items" href="#"><img class="" src="6.png" alt="carousel img"></a></div>
+        <div class="item"><a class="" title="carousel items" href="#"><img class="" src="1.png" alt="carousel img"></a></div>
+        <div class="item"><a class="" title="carousel items" href="#"><img class="" src="6.png" alt="carousel img"></a></div>
+        <div class="item"><a class="" title="carousel items" href="#"><img class="" src="5.png" alt="carousel img"></a></div>
+        <div class="item"><a class="" title="carousel items" href="#"><img class="" src="4.png" alt="carousel img"></a></div>
+        <div class="item"><a class="" title="carousel items" href="#"><img class="" src="3.png" alt="carousel img"></a></div>
+        <div class="item"><a class="" title="carousel items" href="#"><img class="" src="2.png" alt="carousel img"></a></div>
+      </div>
+    </div>
+    <div class="container-fluid bgBlack py-5">
+      <div class="des text-center mx-auto w-50 display-6 clrWhite">CONTACT US</div>
+      <div class="text-center fw_600 fs-4 pb-5 clrWhite">Fill form to reach us!</div>
+      <div class="row justify-content-center">
+        <div class="col-md-4">
+          <label class="fw_600 d-block clrWhite" for="#">First Name</label>
+          <input class="w-100 py-3 rounded brdr_bs fw_600 bgLight bg_light" type="text" placeholder="Enter your first name here...">
+        </div>
+        <div class="col-md-4">
+          <label class="fw_600 d-block clrWhite" for="#">Second Name</label>
+          <input class="w-100 py-3 rounded brdr_bs fw_600 bgLight bg_light" type="text" placeholder="Enter your second name here...">
+        </div>
+      </div>
+      <div class="row justify-content-center my-5">
+        <div class="col-md-3">
+          <label class="fw_600 d-block clrWhite" for="#">Phone #</label>
+          <input class="w-100 py-3 rounded brdr_bs fw_600 bgLight bg_light" type="text" placeholder="Enter your phone # here...">
+        </div>
+        <div class="col-md-5">
+          <label class="fw_600 d-block clrWhite" for="#">Email</label>
+          <input class="w-100 py-3 rounded brdr_bs fw_600 bgLight bg_light" type="text" placeholder="Enter your email here...">
+        </div>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-md-8">
+          <label class="fw_600 d-block clrWhite" for="#">Message</label>
+          <textarea class="w-100 brdr_bs fw_600 bgLight bg_light" placeholder="Write your message here briefly..." cols="" rows="10"></textarea>
+        </div>
+        <div class="text-center mt-4"><button class="fw_600 px-5 py-1 rounded brdr_bs btn-info" type="submit">SEND FORM</button></div>
+      </div>
+    </div>
+    <div class="text-center fw_600 cr py-5 bgLight clrWhite">© Copyright 2018 Free Bootstrap Templates - All Rights Reserved</div>
+    <div class="container-fluid bgBlack">
+      <div class="des text-center mx-auto w-50 display-6 py-3 clrWhite">WEBSITE TEMPLATES</div>
+      <div class="row justify-content-center pt-5">
+        <div class="col-md-2">
+          <img class="d-block w-100" src="https://mobirise.com/bootstrap-template/assets/images/best-bootstrap-templates-492x492.jpg" alt="web temp">
+          <div class="text-center fw_600 mt-3 clrWhite">Best Bootstrap Template</div>
+        </div>
+        <div class="col-md-2">
+          <img class="d-block w-100" src="https://mobirise.com/bootstrap-template/assets/images/bootstrap-basic-template-492x492.jpg" alt="web temp">
+          <div class="text-center fw_600 mt-3 clrWhite">Basic Bootstrap Template</div>
+        </div>
+        <div class="col-md-2">
+          <img class="d-block w-100" src="https://mobirise.com/bootstrap-template/assets/images/bootstrap-ecommerce-template-492x492.jpg" alt="web temp">
+          <div class="text-center fw_600 mt-3 clrWhite">Basic Bootstrap Template</div>
+        </div>
+        <div class="col-md-2">
+          <img class="d-block w-100" src="https://mobirise.com/bootstrap-template/assets/images/bootstrap-basic-template-492x492.jpg" alt="web temp">
+          <div class="text-center fw_600 mt-3 clrWhite">Basic Bootstrap Template</div>
+        </div>
+      </div>
+      <div class="row justify-content-center pt-5">
+        <div class="col-md-2">
+          <img class="d-block w-100" src="https://mobirise.com/bootstrap-template/assets/images/best-bootstrap-templates-492x492.jpg" alt="web temp">
+          <div class="text-center fw_600 mt-3 clrWhite">Best Bootstrap Template</div>
+        </div>
+        <div class="col-md-2">
+          <img class="d-block w-100" src="https://mobirise.com/bootstrap-template/assets/images/bootstrap-basic-template-492x492.jpg" alt="web temp">
+          <div class="text-center fw_600 mt-3 clrWhite">Basic Bootstrap Template</div>
+        </div>
+        <div class="col-md-2">
+          <img class="d-block w-100" src="https://mobirise.com/bootstrap-template/assets/images/bootstrap-ecommerce-template-492x492.jpg" alt="web temp">
+          <div class="text-center fw_600 mt-3 clrWhite">Basic Bootstrap Template</div>
+        </div>
+        <div class="col-md-2">
+          <img class="d-block w-100" src="https://mobirise.com/bootstrap-template/assets/images/bootstrap-basic-template-492x492.jpg" alt="web temp">
+          <div class="text-center fw_600 mt-3 clrWhite">Basic Bootstrap Template</div>
+        </div>
+      </div>
+      <div class="row justify-content-center pt-5">
+        <div class="col-md-2">
+          <img class="d-block w-100" src="https://mobirise.com/bootstrap-template/assets/images/best-bootstrap-templates-492x492.jpg" alt="web temp">
+          <div class="text-center fw_600 mt-3 clrWhite">Best Bootstrap Template</div>
+        </div>
+        <div class="col-md-2">
+          <img class="d-block w-100" src="https://mobirise.com/bootstrap-template/assets/images/bootstrap-basic-template-492x492.jpg" alt="web temp">
+          <div class="text-center fw_600 mt-3 clrWhite">Basic Bootstrap Template</div>
+        </div>
+        <div class="col-md-2">
+          <img class="d-block w-100" src="https://mobirise.com/bootstrap-template/assets/images/bootstrap-ecommerce-template-492x492.jpg" alt="web temp">
+          <div class="text-center fw_600 mt-3 clrWhite">Basic Bootstrap Template</div>
+        </div>
+        <div class="col-md-2">
+          <img class="d-block w-100" src="https://mobirise.com/bootstrap-template/assets/images/bootstrap-basic-template-492x492.jpg" alt="web temp">
+          <div class="text-center fw_600 mt-3 clrWhite">Basic Bootstrap Template</div>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid py-5 pt-4 bgBlack">
+      <div class="des text-center mx-auto display-6 my-3 py-4 cr clrWhite bgLight">MORE</div>
+      <div class="row justify-content-center pt-5">
+        <div class="col-md-2">
+          <img class="d-block w-100" src="https://mobirise.com/bootstrap-template/assets/images/best-bootstrap-templates-492x492.jpg" alt="web temp">
+          <div class="text-center fw_600 mt-3 clrWhite">Best Bootstrap Template</div>
+        </div>
+        <div class="col-md-2">
+          <img class="d-block w-100" src="https://mobirise.com/bootstrap-template/assets/images/bootstrap-basic-template-492x492.jpg" alt="web temp">
+          <div class="text-center fw_600 mt-3 clrWhite">Basic Bootstrap Template</div>
+        </div>
+        <div class="col-md-2">
+          <img class="d-block w-100" src="https://mobirise.com/bootstrap-template/assets/images/bootstrap-ecommerce-template-492x492.jpg" alt="web temp">
+          <div class="text-center fw_600 mt-3 clrWhite">Basic Bootstrap Template</div>
+        </div>
+        <div class="col-md-2">
+          <img class="d-block w-100" src="https://mobirise.com/bootstrap-template/assets/images/bootstrap-basic-template-492x492.jpg" alt="web temp">
+          <div class="text-center fw_600 mt-3 clrWhite">Basic Bootstrap Template</div>
+        </div>
+      </div>
+      <div class="row justify-content-center pt-5">
+        <div class="col-md-2">
+          <img class="d-block w-100" src="https://mobirise.com/bootstrap-template/assets/images/best-bootstrap-templates-492x492.jpg" alt="web temp">
+          <div class="text-center fw_600 mt-3 clrWhite">Best Bootstrap Template</div>
+        </div>
+        <div class="col-md-2">
+          <img class="d-block w-100" src="https://mobirise.com/bootstrap-template/assets/images/bootstrap-basic-template-492x492.jpg" alt="web temp">
+          <div class="text-center fw_600 mt-3 clrWhite">Basic Bootstrap Template</div>
+        </div>
+        <div class="col-md-2">
+          <img class="d-block w-100" src="https://mobirise.com/bootstrap-template/assets/images/bootstrap-ecommerce-template-492x492.jpg" alt="web temp">
+          <div class="text-center fw_600 mt-3 clrWhite">Basic Bootstrap Template</div>
+        </div>
+        <div class="col-md-2">
+          <img class="d-block w-100" src="https://mobirise.com/bootstrap-template/assets/images/bootstrap-basic-template-492x492.jpg" alt="web temp">
+          <div class="text-center fw_600 mt-3 clrWhite">Basic Bootstrap Template</div>
+        </div>
+      </div>
+      <div class="row justify-content-center pt-5">
+        <div class="col-md-2">
+          <img class="d-block w-100" src="https://mobirise.com/bootstrap-template/assets/images/best-bootstrap-templates-492x492.jpg" alt="web temp">
+          <div class="text-center fw_600 mt-3 clrWhite">Best Bootstrap Template</div>
+        </div>
+        <div class="col-md-2">
+          <img class="d-block w-100" src="https://mobirise.com/bootstrap-template/assets/images/bootstrap-basic-template-492x492.jpg" alt="web temp">
+          <div class="text-center fw_600 mt-3 clrWhite">Basic Bootstrap Template</div>
+        </div>
+        <div class="col-md-2">
+          <img class="d-block w-100" src="https://mobirise.com/bootstrap-template/assets/images/bootstrap-ecommerce-template-492x492.jpg" alt="web temp">
+          <div class="text-center fw_600 mt-3 clrWhite">Basic Bootstrap Template</div>
+        </div>
+        <div class="col-md-2">
+          <img class="d-block w-100" src="https://mobirise.com/bootstrap-template/assets/images/bootstrap-basic-template-492x492.jpg" alt="web temp">
+          <div class="text-center fw_600 mt-3 clrWhite">Basic Bootstrap Template</div>
+        </div>
+      </div>
+    </div>
+    <div class="text-center fw_600 bg-dark text-white py-3">© Copyright 2018 Free Bootstrap Templates - All Rights Reserved</div>
+    <div class="dn hide1000 border d-inline-block text-center bg-dark pt-2 position-fixed end-0">
+      <img class="sun" src="sun cnvrt.png" alt="sun">
+      <div class="mt-3"><button onclick="day_night()" class="rounded-0 brdr_bs fw_600 btn-info" type="submit">DAY MODE</button></div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+      // day and night
+      let light;
+      function day_night(){
+          light = !light;
+      $(".bgBlack").toggleClass("bgBlackadd")
+      $(".clrWhite").toggleClass("clrWhiteadd")
+      $(".bgLight").toggleClass("bgLightadd")
+      $(".lang").toggleClass("btnLang")
+      if(light){
+      $(".sun , .moonImg").attr("src" , "moon.png")
+      $(".btn-info").text("NIGHT MODE")
+      }
+      else{
+      $(".btn-info").text("DAY MODE")
+      $(".sun , .moonImg").attr("src" , "sun cnvrt.png")
+      }
+      }
+      $('.owl-carousel').owlCarousel({
+      loop:true,
+      margin:10,
+      responsiveClass:true,
+      responsive:{
+      0:{
+          items:1,
+          nav:true
+      },
+      600:{
+          items:3,
+          nav:false
+      },
+      1000:{
+          items:5,
+          nav:true,
+          loop:false
+      }
+      }
+      })
+    </script>
+  </body>
+</html>

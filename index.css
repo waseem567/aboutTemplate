@@ -1,0 +1,109 @@
+.btnLang{
+color:#800080 !important;
+}
+.dn{
+top: 20%;
+width: 80px;
+background: linear-gradient(to left, #053537, #00505c, #006c89, #0087b9, #18a1eb);;
+}
+.sun{
+height: 50px;
+width: 50px;
+}
+.bgLightadd{
+background: #121212 !important;
+}
+.bgBlackadd{
+background: #000 !important;
+}
+.clrWhiteadd{
+color: white !important;
+}
+.owl-carousel .item{
+height: 200px;
+width: 200px;
+}
+.anchor{
+text-decoration:none;
+color: black;
+font-weight: 600;
+}
+.anchor:hover{
+text-decoration:none;
+color: black;
+}
+.search_div{
+width: 22%;
+}
+.top_right{
+top: 17px;
+right: 10px;
+}
+.h_w{
+height: 25px;
+}
+.z_index{
+z-index: 1;
+}
+.bg_light{
+background: #eff4f9;
+}
+.bgWhite{
+background: white;
+}
+.brdr_bs{
+border: 1px solid #dee2e6;
+}
+.moon_img{
+display: none;
+}
+.bgCode{
+background: linear-gradient(to left, #053537, #00505c, #006c89, #0087b9, #18a1eb);;
+}
+.clr1{
+color : #053537;
+}
+.clr2{
+color :  #00505c;
+}
+.clr3{
+color : #006c89,;
+}
+.clr4{
+color :  #0087b9;
+}
+.fw_600{
+font-weight: 600;
+}
+.bg_none{
+background: none;
+color: white;
+transition: .5s;
+}
+.bg_none:hover{
+background: rgb(29, 146, 255);
+color: white;
+}
+.bgGrad{
+background: linear-gradient(to right,black 50%,white 50%);
+}
+.textBlack{
+color: black;
+}
+.icon{
+color: chartreuse;
+}
+.bg_grd{
+background: linear-gradient(#FEA7FF ,#A7FFFE);
+}
+.cr{
+background-color: #ecfafc;
+}
+@media (max-width:950px) {
+.moon_img{
+display: block;
+}
+.hide1000 , .dn{
+display: none !important;
+}
+}
